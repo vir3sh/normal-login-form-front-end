@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgb(106, 179, 116);
+}
+
+.container {
+  width: 380px;
+  /* height: 400px; */
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px 5px;
+}
+
+.container .page-name {
+  line-height: 80px;
+  background: green;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  font-size: 27px;
+  color: #fff;
+  font-weight: 600px;
+}
+
+.text {
+  margin: 20px;
+  margin-left: 10px;
+}
+
+form {
+  padding: 30px 20px 25px 20px;
+}
+
+.container form .text {
+  height: 45px;
+  margin-bottom: 15px;
+  width: 300px;
+  position: relative;
+}
+.container form .text input {
+  height: 100%;
+  width: 100%;
+  padding-left: 60px;
+}
+
+.container form .text i {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 47px;
+  background-color: rgb(35, 187, 35);
+  color: #fff;
+}
+
+.container form .button input {
+  padding-left: 0px;
+  background-color: rgb(35, 187, 35);
+}
+
+.container form .pass a {
+  text-decoration: none;
+}
+
+.container form .sign-up a {
+  text-decoration: none;
+}
